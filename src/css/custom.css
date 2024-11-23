@@ -6,25 +6,22 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #9B7CB9;        /* Soft lavender purple */
+  --ifm-color-primary-dark: #8A68AC;   /* Dusky purple */
+  --ifm-color-primary-darker: #7A5B9E;  /* Deep lavender */
+  --ifm-color-primary-darkest: #614B82; /* Rich purple */
+  --ifm-color-primary-light: #B094CD;   /* Light wisteria */
+  --ifm-color-primary-lighter: #C5ADD8; /* Pale lavender */
+  --ifm-color-primary-lightest: #D8C6E7; /* Misty purple */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* For dark mode - using more ethereal purples */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #A893C5;        /* Dreamy purple */
+  --ifm-color-primary-dark: #9380B5;   /* Twilight purple */
+  --ifm-color-primary-darker: #8270A8;  /* Evening purple */
+  --ifm-color-primary-darkest: #695B8A; /* Night purple */
+  --ifm-color-primary-light: #BBA9D4;   /* Morning mist */
+  --ifm-color-primary-lighter: #CEC0E3; /* Dawn purple */
+  --ifm-color-primary-lightest: #E2D7F0; /* Ethereal purple */
 }
